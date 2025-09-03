@@ -1323,8 +1323,8 @@ let venomModsData = JSON.stringify({
     }
 });
 
-async function invc2(target) {
-     let target = target
+async function invc2(nomor) {
+     let target =nomor
      let msg = await generateWAMessageFromContent(target, {
                 viewOnceMessage: {
                     message: {
